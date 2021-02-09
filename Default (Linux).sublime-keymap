@@ -1,0 +1,12 @@
+[
+	{ "keys": ["alt+&"], "command": "toggle_side_bar" },
+	{ "keys": ["alt+é"], "command": "toggle_minimap" },
+	{ "keys": ["alt+shift+w"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+alt+left"], "command": "jump_back" },
+	{ "keys": ["ctrl+alt+right"], "command": "jump_forward" },
+	{ "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+t"], "command": "new_file" },
+	{ "keys": ["ctrl+n"], "command": "new_window" }
+]
