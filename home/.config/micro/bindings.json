@@ -1,0 +1,11 @@
+{
+	"Ctrl-p": "CommandMode",
+	"Ctrl-d": "SpawnMultiCursor",
+	"Ctrl-e": "DuplicateLine",
+	"Ctrl-g": "command-edit:goto ",
+	"F1": "ToggleHelp", // Because you know, but can interfere with terminal 
+	"F4": "None", //disable default Quit behaviour 
+	// "CtrlBackspace": "DeleteWordLeft", // doesn't work due to too many difficulties 
+	"Alt-/": "lua:comment.comment", 
+	"CtrlUnderscore": "lua:comment.comment" 
+}
