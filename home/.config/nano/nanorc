@@ -270,9 +270,9 @@ include "/usr/share/nano/*.nanorc"
 
 ## Set this if your Backspace key sends Del most of the time.
 # bind Del backspace all
-bind ^c copytext main
+bind ^c copy main
 bind ^x cut main
-bind ^v uncut main
+bind ^v paste main
 bind ^z undo main
 bind ^y redo main
 bind ^f whereis main
