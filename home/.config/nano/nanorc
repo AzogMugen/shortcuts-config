@@ -81,7 +81,7 @@ set locking
 ## mouse clicks can be used to place the cursor, set the mark (with a
 ## double click), and execute shortcuts.  The mouse will work in the X
 ## Window System, and on the console when gpm is running.
-# set mouse
+set mouse
 
 ## Switch on multiple file buffers (inserting a file will put it into
 ## a separate buffer).
@@ -150,7 +150,7 @@ set nowrap
 # set smarthome
 
 ## Use smooth scrolling as the default.
-# set smooth
+set smooth
 
 ## Enable soft line wrapping (AKA full-line display).
 # set softwrap
@@ -279,5 +279,7 @@ bind ^f whereis main
 bind F3 findnext main
 bind ^h replace main
 bind ^s writeout main
+bind ^g gotoline main
+
 set tabsize 4
 set linenumbers
